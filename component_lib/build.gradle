@@ -31,4 +31,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //Secure, simple key-value storage for android
+    implementation "com.orhanobut:hawk:2.0.1"
+    //fix 吐司不显示的诸多问题
+    implementation 'com.github.Dovar66:DToast:1.0.3'
+    //给View添加阴影
+    implementation 'com.github.Hitomis:CrazyShadow:v1.0.1'
 }
